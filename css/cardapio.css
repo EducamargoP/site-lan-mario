@@ -1,0 +1,200 @@
+/* estrutura do site
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: helvetica, "Trebuchet MS", sans-serif;
+    background: #fff url(../fotos/bg.png);
+    margin: 15px;
+}
+
+#container{
+    background: url(../fotos/bg-container.png)top center repeat-y;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1200px;
+}
+
+#topo{
+    position: relative;
+    background: black;
+    height: 15.4em;
+    min-height: 250px;
+}
+
+#area-logo{
+    position: absolute;
+    background: url(../fotos/capa7.png);
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+   
+}
+
+#area-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:  #eae18f;
+    background-size: contain;
+    width: 450px;
+    height: 250px;
+    z-index: 1;
+        
+}
+
+#conteudo-menu{
+  margin-left: 90px;
+  margin-right: 15px;
+  padding-top: 15px;
+
+}
+#menu-locais{
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.7em;
+    color: black;
+}
+
+#menu-locais .locais{
+    float: left;
+    line-height: 2.1em;
+
+
+}
+a {
+    text-decoration: none;
+}
+
+a.busca {
+    text-transform: uppercase;
+    background: black;
+    color: #a29750;
+    padding: 5px 10px;
+    float: right;
+
+}
+
+/* inicio menu vertical */
+
+#menu {
+    margin-top: 15px;
+
+}
+ul {
+ 
+    list-style: none;
+}
+ul#navegacao a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672e;
+    line-height: 30px;
+    
+
+}
+ul#navegacao a:hover{
+    background: #fdf6be;
+
+
+}
+ul#navegacao{
+    float: left;
+}
+.logo {
+    width: 160px;
+    height: 164px;
+    float: right;
+    
+}
+
+/* Aréa de conteúdos */
+
+#area-principal {
+    
+    float: left;
+    width: 50%;
+    background: url(../fotos/bg-area-principal.png)top left repeat-x;
+    padding: 15px 0;
+}
+
+#area-lateral {
+    
+    float: right;
+    width: 50%;
+    padding: 20px 0;
+    background: url(../fotos/bg-area-lateral.png) top left repeat-x;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+#rodape {
+    clear: both;
+    padding: 16px;
+    background: #fff;
+    color:#7d7640
+}
+
+/* formatações de textos */
+
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* formatações da area-lateral */
+
+#parceiros li {
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+
+}
+#parceiros li  img {
+    float: left;
+    margin-right: 8px;
+
+}
+#parceiros li p {
+    font-size: 0.8em;
+}
+
+#parceiros li h3 {
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    
+}
+
+#parceiros h3 {
+    
+        color: #7d7640;
+        font-size: 1.1em;
+        padding: 5px 0px;
+    
+}
+
+#parceiros li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
+}
